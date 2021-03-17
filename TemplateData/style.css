@@ -13,11 +13,15 @@
 
 .webgl-content .footer {position:fixed; width: 100vw; bottom: 5px; margin-top: 5px; height: 50px; line-height: 38px; font-family: 'Josefin Sans', sans-serif; font-size: 18px;}
 .webgl-content .footer .webgl-logo, .webxr-link, .title, .enterar, .entervr {height: 100%; display: inline-block; background: transparent center no-repeat;}
-.webgl-content .footer .webgl-logo {background-image: url('MDW21.png'); background-size: contain; width: 250px; float: left;}
-.webgl-content .footer .webxr-link {float: left; padding-left: 2rem;}
+.webgl-content .footer .webgl-logo 
+.webgl-content .footer .webxr-link {float: left; padding-left: 2rem; text-align: center; margin: 2rem;}
 .webgl-content .footer .title {margin-right: 10px; float: right;}
 .webgl-content .footer .enterar:enabled {background-color: #1eaed3; width: 38px; float: right;}
 .webgl-content .footer .enterar:disabled {background-color: #dddddd; width: 38px; float: right;}
 .webgl-content .footer .entervr:enabled {background-color: #1eaed3; width: 38px; float: right;}
 .webgl-content .footer .entervr:disabled {background-color: #dddddd; width: 38px; float: right;}
 .webgl-content .footer .Buttons {width: 40px; margin-right: 5px; float: right; position: grid;}
+
+.webgl-content .MDW-logo {position:fixed; width: 100vw; top: 5px; margin-top: 5px; height: 50px; line-height: 38px; font-family: 'Josefin Sans', sans-serif; font-size: 18px;}
+.webgl-content .MDW-logo {display: inline-block; background: transparent center no-repeat; z-index: 100;}
+.webgl-content .MDW-logo {background-image: url('MDW21.png'); background-size: contain; width: 250px; float: left;}
