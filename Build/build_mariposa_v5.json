@@ -1,0 +1,17 @@
+{
+"companyName": "Affinity Space",
+"productName": "Mariposa Milano Digital Week",
+"productVersion": "1.0.5",
+"dataUrl": "build_mariposa_v5.data.unityweb",
+"wasmCodeUrl": "build_mariposa_v5.wasm.code.unityweb",
+"wasmFrameworkUrl": "build_mariposa_v5.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "build_mariposa_v5.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.13f1"
+}
